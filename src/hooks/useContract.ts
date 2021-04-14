@@ -16,6 +16,7 @@ import {
   getClaimRefundContract,
   getTradingCompetitionContract,
   getEasterNftContract,
+  getErc721Contract,
 } from 'utils/contractHelpers'
 
 /**
@@ -30,6 +31,14 @@ export const useIfoContract = (address: string) => {
 export const useERC20 = (address: string) => {
   const web3 = useWeb3()
   return useMemo(() => getBep20Contract(address, web3), [address, web3])
+}
+
+/**
+ * @see https://docs.openzeppelin.com/contracts/3.x/api/token/erc721
+ */
+export const useERC721 = (address: string) => {
+  const web3 = useWeb3()
+  return useMemo(() => getErc721Contract(address, web3), [address, web3])
 }
 
 export const useCake = () => {
