@@ -92,6 +92,7 @@ export type Nft = {
   sortOrder: number
   bunnyId: number
   video?: NftVideo
+  address: Address
 }
 
 export type TeamImages = {
