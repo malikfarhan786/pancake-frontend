@@ -324,12 +324,12 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 98,
-    lpSymbol: 'TXL-BUSD LP',
+    lpSymbol: 'EGG-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xD20E0BcCa8B29409bf5726CB24DD779Fe337020e',
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
-    token: tokens.txl,
+    token: tokens.egg,
     quoteToken: tokens.busd,
   },
   {
