@@ -6,16 +6,16 @@ const tokens = {
   cake: {
     symbol: 'CAKE',
     address: {
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
   },
-  txl: {
-    symbol: 'TXL',
+  egg: {
+    symbol: 'EGG',
     address: {
-      56: '0x1ffd0b47127fdd4097e54521c9e2c7f0d66aafc5',
+      56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
       97: '',
     },
     decimals: 18,
